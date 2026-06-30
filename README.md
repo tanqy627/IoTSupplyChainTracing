@@ -1,4 +1,4 @@
-# IoTSupplyChainTracing Core
+# IoTSupplyChainTracing
 
 This repository contains a first-stage public release of the core code for
 3D-SCM: a three-dimensional IoT supply-chain measurement framework.
