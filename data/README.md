@@ -27,18 +27,3 @@ When the device IP cannot be inferred from the filename, provide it through a
 local manual IP mapping CSV via `--manual-ip-csv`. This local file is
 user-specific and should not be committed to the public repository. Its required
 columns are documented in `docs/input_schema.md` and `docs/dataset.md`.
-
-## What Is Not Redistributed
-
-We do not redistribute:
-
-- raw PCAP files;
-- full DNS query logs;
-- toy/example traffic data;
-- LLM validation data or model-output caches;
-- local manual IP mapping files;
-- local device IP addresses, MAC addresses, or private network identifiers;
-- original absolute file paths;
-- API keys.
-
-The released data directory is intentionally limited to dataset-source metadata.
