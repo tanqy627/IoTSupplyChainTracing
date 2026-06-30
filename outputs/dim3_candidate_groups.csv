@@ -1,0 +1,82 @@
+﻿Group_ID,Num_Vendors,Num_Devices,Vendors,Devices
+D3_C0051,6,9,aqara|luohe|sonoff|xiaobai|xiaomao|xiaomi,Aqara Camera_selfdata|Aqara Plug_selfdata|Luohe Spycamera_Mon(us)|Sonoff Camera_selfdata|Xiaobai Y2camera_selfdata|Xiaomao Camera_selfdata|Xiaomi Camera3_selfdata|Xiaomi Camera_selfdata|xiaomitv_speaker
+D3_C0079,5,7,aqara|qianniao|xiaobai|xiaomao|xiaomi,Aqara Camera_selfdata|Aqara Plug_selfdata|Xiaobai Y2camera_selfdata|Xiaomao Camera_selfdata|Xiaomi Camera_selfdata|qianniao_camera|xiaomitv_speaker
+D3_C0015,3,5,huawei|xiaojingyu|xiaomi,Xiaojingyu Clock_selfdata|Xiaomi Sound_selfdata|Xiaomi Speaker_selfdata|huawei_tv|xiaomitv_speaker
+D3_C0023,4,4,bose|roku|samsung|sonos,Bose Sound Touch10_YT|Roku4_YT|Samsung Smart TV_YT|Sonos_YT
+D3_C0029,3,4,canary|nest|samsung,Canary_YT|Nest CamIQ_YT|Nest Guard_YT|Samsung Smart TV_YT
+D3_C0033,2,4,amazon|samsung,Amazon Echo Gen2_IoTLS|Amazon Echo Gen3_IoTLS|Amazon Fire TV_IoTLS|Samsung Dryer_IoTLS
+D3_C0035,3,4,apple|roku|samsung,Apple Home Pod_YT|Apple TV(4thGen)_YT|Roku TV_YT|Samsung Smart TV_YT
+D3_C0041,3,4,google|roku|samsung,Google Home Mini_YT|Google Home_YT|Roku TV_YT|Samsung Smart TV_YT
+D3_C0049,3,4,canary|google|nvidia,Canary_YT|Google Home Mini_YT|Google Home_YT|nVidia Shield_YT
+D3_C0066,3,4,aqara|xiaobai|xiaomi,Aqara Camera_selfdata|Xiaobai Y2camera_selfdata|Xiaomi Camera_selfdata|xiaomitv_speaker
+D3_C0019,2,3,google|nvidia,Google Home Mini_YT|Google Home_YT|nVidia Shield_YT
+D3_C0025,3,3,canary|roku|samsung,Canary_YT|Roku TV_YT|Samsung Smart TV_YT
+D3_C0043,3,3,huawei|lecheng|xiaomi,Lecheng Camera_selfdata|Xiaomi Sound_selfdata|huawei_tv
+D3_C0070,2,3,amazon|samsung,Amazon Echo Gen2_IoTLS|Amazon Echo Gen3_IoTLS|Samsung Dryer_IoTLS
+D3_C0031,2,2,amazon|samsung,Amazon Fire TV_YT|Samsung Smart TV_YT
+D3_C0044,2,2,google|samsung,Google Home_YT|Samsung Smart TV_YT
+D3_C0046,2,2,lg|roku,LG Smart TV_Mon(us)|Roku TV_Mon(uk)
+D3_C0048,2,2,amazon|samsung,Amazon Echo Gen2_IoTLS|Samsung Dryer_IoTLS
+D3_C0056,2,2,google|nvidia,Google Home Mini_YT|nVidia Shield_YT
+D3_C0068,2,2,roku|samsung,Roku TV_YT|Samsung Smart TV_YT
+D3_C0007,4,4,amazon|google|lg|withings,Amazon Echo Gen1_Our|Google Home_Mon(uk)|LG Smart TV_Our2|Withings Smart Baby Monitor_UNSW
+D3_C0021,3,3,nest|roku|samsung,Nest Tstat_IoTLS|Roku TV_IoTLS|Samsung Dryer_IoTLS
+D3_C0030,3,3,lg|nest|roku,LG Smart TV_IoTLS|Nest Tstat_IoTLS|Roku TV_IoTLS
+D3_C0034,2,3,amazon|nest,Amazon Echo Gen3_Mon(us)|Nest Tstat_Mon(uk)|Nest Tstat_Mon(us)
+D3_C0069,2,3,xiaomi|yi,Xiaomi Camera_Mon(uk)|Xiaomi Strip_Mon(us)|Yi Camera_Mon(uk)
+D3_C0077,2,3,amazon|lg,Amazon Echo Gen1_Our|LG Smart TV_Our|LG Smart TV_Our2
+D3_C0002,2,2,amazon|insteon,Amazon Echo Gen1_UNSW|Insteon Camera_UNSW
+D3_C0005,2,2,huawei|xiaomi,huawei_tv|xiaomitv_speaker
+D3_C0024,2,2,arlo|google,Google Home_YT|NetgearArlo Camera_YT
+D3_C0053,2,2,amazon|lg,Amazon Echo Gen1_Our|LG Smart TV_Our
+D3_C0060,2,2,amazon|lg,Amazon Echo Gen1_Our|LG Smart TV_Our2
+D3_C0063,2,2,mercury|tp-link,Shuixing Camera_selfdata|TP-Link Doorbell_selfdata
+D3_C0064,2,2,amazon|nest,Amazon Echo Gen3_Mon(uk)|Nest Tstat_Mon(uk)
+D3_C0078,2,2,huawei|xiaomi,Xiaomi Speaker_selfdata|huawei_tv
+D3_C0004,4,5,qianniao|sonoff|xiaobai|xiaomi,Sonoff Camera_selfdata|Xiaobai Y2camera_selfdata|Xiaomi Camera3_selfdata|Xiaomi Camera_selfdata|qianniao_camera
+D3_C0050,2,5,amazon|unknown,Amazon Echo Gen1_Mon(us)|Amazon Echo Gen2_Mon(us)|Amazon Echo Gen3_Mon(us)|Amazon Fire TV_Mon(us)|Cloud Camera_Mon(us)
+D3_C0012,3,4,roku|yi|yibang,Roku TV_IoTLS|Yi Camera_IoTLS|Yi Camera_Mon(us)|Yibang Camera_selfdata
+D3_C0052,4,4,qianniao|xiaobai|xiaomao|xiaomi,Xiaobai Y2camera_selfdata|Xiaomao Camera_selfdata|Xiaomi Camera_selfdata|qianniao_camera
+D3_C0076,4,4,jooan|konka|lenovo|pisen,Konka Camera_selfdata|Lenovo Camera_selfdata|Pisen Camera_selfdata|Qiaoan Camera_selfdata
+D3_C0009,2,3,amazon|unknown,Amazon Echo Gen1_Mon(us)|Amazon Fire TV_Mon(us)|Cloud Camera_Mon(us)
+D3_C0032,3,3,jooan|konka|pisen,Konka Camera_selfdata|Pisen Camera_selfdata|Qiaoan Camera_selfdata
+D3_C0036,2,3,amazon|unknown,Amazon Echo Gen3_Mon(us)|Amazon Fire TV_Mon(us)|Cloud Camera_Mon(us)
+D3_C0001,2,2,amazon|unknown,Amazon Echo Gen1_Mon(us)|Cloud Camera_Mon(us)
+D3_C0006,2,2,amazon|nvidia,Amazon Fire TV_YT|nVidia Shield_YT
+D3_C0010,2,2,amazon|unknown,Amazon Fire TV_Mon(us)|Cloud Camera_Mon(us)
+D3_C0014,2,2,roku|yi,Roku TV_IoTLS|Yi Camera_IoTLS
+D3_C0017,2,2,harman kardon|sonos,Harmon Kardon Invoke_YT|Sonos_YT
+D3_C0018,2,2,august|samsung,August Doorbell Camera_YT|Samsung Smart TV_YT
+D3_C0020,2,2,tenda|xiaobai,Tenda Camera_selfdata|Xiaobai Camera_selfdata
+D3_C0022,2,2,amazon|unknown,Amazon Echo Gen3_Mon(us)|Cloud Camera_Mon(us)
+D3_C0027,2,2,lenovo|midea,Lenovo Camera_selfdata|Midea Speaker_selfdata
+D3_C0038,2,2,huawei|lecheng,Lecheng Camera_selfdata|huawei_tv
+D3_C0039,2,2,nvidia|samsung,Samsung Smart TV_YT|nVidia Shield_YT
+D3_C0047,2,2,xiaobai|xiaomi,Xiaobai Y2camera_selfdata|Xiaomi Camera_selfdata
+D3_C0074,2,2,jooan|konka,Konka Camera_selfdata|Qiaoan Camera_selfdata
+D3_C0081,2,2,huawei|xiaotun,Huawei Sound_selfdata|Xiaotun Camera_selfdata
+D3_C0016,2,4,apple|samsung,Apple home Pod_IoTLS|Samsung Dryer_Mon(us)|Samsung Washer_Mon(us)|Sansung Fridge_Mon(us)
+D3_C0026,2,3,hongyar|tuya,Hongyar Plug_selfdata|Tuya Plug_selfdata|Tuya Sensor_selfdata
+D3_C0028,2,3,amazon|apple,Amazon Fire TV_YT|Apple Home Pod_YT|Apple TV(4thGen)_YT
+D3_C0071,2,3,belkin|nvidia,Belkin WeMo Motion Sensor_YT|Belkin WeMo Switch_YT|nVidia Shield_YT
+D3_C0003,2,2,cubetoou|honorxiaotun,Cubetoou Camera_selfdata|Honorxiaotun Camera_selfdata
+D3_C0011,2,2,bosiwo|lefun,Bosiwo Camera Wired_Mon(uk)|Lefun Camera Wired_Mon(us)
+D3_C0013,2,2,apple|samsung,Apple TV(4thGen)_YT|Samsung Smart TV_YT
+D3_C0067,2,2,hongyar|tuya,Hongyar Plug_selfdata|Tuya Plug_selfdata
+D3_C0073,2,2,bose|samsung,Bose Sound Touch10_YT|Samsung Smart TV_YT
+D3_C0058,3,3,hongyar|tuya|unknown,Hongyar Plug_selfdata|Smartlife Remote_IoTLS|Tuya Sensor_selfdata
+D3_C0008,2,2,nest|roku,Nest CamIQ_YT|Roku TV_YT
+D3_C0037,2,2,apple|huawei,Apple home Pod_IoTLS|Huawei Sound_selfdata
+D3_C0040,2,2,roku|sonos,Roku TV_YT|Sonos_YT
+D3_C0042,2,2,invoxia|ring,Ring Doorbell_Mon(uk)|Triby Speaker_UNSW
+D3_C0045,2,2,tuya|unknown,Smartlife Bulb_IoTLS|Tuya Plug_selfdata
+D3_C0054,2,2,canary|logitech,Canary_YT|Logitech Logi Circle_YT
+D3_C0055,2,2,360|xiaojingyu,360 Camera_selfdata|Xiaojingyu Clock_selfdata
+D3_C0057,2,2,logitech|piper,Logitech Logi Circle_YT|Piper NV_YT
+D3_C0059,2,2,insteon|samsung,Insteon Camera_UNSW|Samsung Smart TV_Mon(uk)
+D3_C0061,2,2,august|withings,August Doorbell Camera_YT|Withings Home_YT
+D3_C0062,2,2,insteon|midea,Insteon Camera_UNSW|Midea Speaker_selfdata
+D3_C0065,2,2,dogness|xiaobai,Xiaobai Doorbell_selfdata|duonisi_feeder
+D3_C0072,2,2,google|yi,Google Home Mini_YT|Yi Camera_Mon(uk)
+D3_C0075,2,2,midea|zte,Midea Speaker_selfdata|Zte Camera_selfdata
+D3_C0080,2,2,flux|unknown,Flux Bulb_Mon(us)|Smart WiFi Plug01_Our2
