@@ -76,6 +76,6 @@ vendor-level grouping, non-target-device filtering, and group summaries.
 ## Non-Redistribution Policy
 
 Raw PCAP files, full DNS query logs, device MAC addresses, local IP addresses,
-absolute local file paths, LLM validation data, model-output caches, and API keys are intentionally excluded from this
+absolute local file paths, model-output caches, and API keys are intentionally excluded from this
 repository. Users should obtain raw datasets from the original sources and run
 the preprocessing pipeline locally.
