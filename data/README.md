@@ -36,18 +36,3 @@ local file following the schema in:
 ```text
 data/files_with_suggested_ips.schema.csv
 ```
-
-## What Is Not Redistributed
-
-We do not redistribute:
-
-- raw PCAP files;
-- full DNS query logs;
-- toy/example traffic data;
-- LLM validation data or model-output caches;
-- local device IP addresses, MAC addresses, or private network identifiers;
-- original absolute file paths;
-- API keys.
-
-The released data directory is intentionally limited to dataset-source metadata
-and input-schema documentation.
