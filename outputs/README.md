@@ -1,54 +1,53 @@
 # Output Files
 
-This directory contains group-level results released for the core 3D-SCM pipeline. The files are intentionally limited to structured group-level outputs and do not include raw PCAPs, raw DNS logs, local paths, device IPs, timestamps, LLM raw responses, API logs, distance matrices, or flow-level payload sequences.
+This directory contains the group-level results released for the three dimensions of the 3D-SCM pipeline. The release is intentionally limited to structured group-level outputs and does not include raw PCAPs, raw DNS logs, local paths, device IPs, timestamps, LLM raw responses, API logs, distance matrices, or flow-level payload sequences.
+
+All list-valued fields use `|` as the separator. Empty optional fields are left blank.
 
 ## Files
 
 ### `documentary_groups.csv`
 
-Dimension I result: groups derived from verified documentary evidence.
+Dimension I result: 36 groups constructed from verified documentary evidence of cross-vendor connections.
 
-Core columns:
+Columns:
 
-- `Group_ID`: group identifier.
-- `Platform`: ecosystem link or platform when applicable.
-- `Relationship_Type`: documented relationship type, such as `Ecosystem` or `Parent/Subsidiary`.
-- `Num_Vendors`, `Num_Devices`: group size statistics.
+- `Cluster_ID`: Dimension I group identifier.
+- `Tech_Link`: documented technical link or corporate affiliation defining the group.
+- `Connection_Type`: connection category (`Technical Integration` or `Corporate Affiliation`).
+- `Num_Vendors`, `Num_Devices`: numbers of vendors and devices in the group.
 - `Vendors`, `Devices`: pipe-separated vendor and device lists.
+- `provider`: provider associated with the documented connection, when applicable.
+- `provider_role`: provider's role in the connection.
+- `provider_subrole`: more specific provider role, when applicable.
 
 ### `endpoint_groups.csv`
 
-Dimension II result: group-level endpoint sharing results.
+Dimension II result: 69 groups of devices from multiple vendors that share one or more backend domains.
 
-Core columns:
+Columns:
 
-- `Group_ID`: group identifier.
-- `Num_Vendors`, `Num_Devices`, `Num_Domains`: group size statistics.
+- `Cluster_ID`: Dimension II group identifier.
+- `Num_Vendors`, `Num_Devices`, `Num_Domains`: numbers of vendors, devices, and shared domains in the group.
+- `Vendors`, `Devices`, `Domains`: pipe-separated vendor, device, and domain lists.
+- `Domain_Types`: category or categories assigned to the shared domains.
+- `Providers`: provider or providers associated with the shared domains.
+- `Provider_Roles`: roles of the associated providers.
+- `Provider_Subroles`: more specific provider roles, when applicable.
+- `Annotation_Confidences`: confidence level or levels for the domain annotations.
+- `Domain_Annotation_Notes`: semicolon-separated domain-level annotation notes.
+
+For fields containing multiple annotation values, the values summarize the domains represented in the group; repeated identical values may be consolidated and therefore should not be interpreted as positionally aligned with `Domains`.
+
+### `behavior_groups.csv`
+
+Dimension III result: 81 cross-vendor groups identified from similar behavioral traffic patterns.
+
+Columns:
+
+- `Cluster_ID`: Dimension III group identifier.
+- `Num_Vendors`, `Num_Devices`: numbers of vendors and devices in the group.
+- `Num_Components`: number of connected components from which the group was derived.
+- `Superset_Count`: number of supersets supporting the group.
 - `Vendors`, `Devices`: pipe-separated vendor and device lists.
-- `Domains`: shared backend domains supporting the group.
-- `Domain_Types`: domain categories used in analysis.
-
-### `dim3_candidate_groups.csv`
-
-Dimension III candidate groups before corroboration. This file is intentionally kept minimal and contains only candidate group membership information.
-
-Core columns:
-
-- `Group_ID`: Dimension III candidate group identifier.
-- `Num_Vendors`, `Num_Devices`: group size statistics.
-- `Vendors`, `Devices`: pipe-separated vendor and device lists.
-
-Corroboration rule outputs are not included in this file. They are reported in `corroboration_results.csv`.
-
-### `corroboration_results.csv`
-
-Retained Dimension III groups after the corroboration step. This file contains the retained groups and the evidence fields used to explain why each group was kept.
-
-Core columns include:
-
-- `Group_ID`, `Num_Vendors`, `Num_Devices`, `Vendors`, `Devices`.
-- `Rule_I`, `Rule_II`, `Rule_III`, `Rule_IV`: whether the group passed each corroboration rule.
-- `Num_Components`, `Superset_Count`: statistics used by Rule III.
-- `Rule_IV_Verified_Ratio`, `Rule_IV_Verified_Count`, `Rule_IV_Verified_Pairs`, `Rule_IV_Anchor_Types`: statistics and pair-level evidence used by Rule IV.
-- `Retained`: retained flag. In this released file, all rows are retained groups.
-- `Corroboration_Tier`: retained evidence tier.
+- `Device_Types`: pipe-separated device types represented in the group.
