@@ -1,8 +1,0 @@
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.agents/
-
-# Local Dimension I API responses, grounding metadata, and candidates.
-outputs/dim1_cache/
-outputs/dim1_assessment/
